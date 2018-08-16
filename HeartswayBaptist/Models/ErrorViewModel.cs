@@ -1,0 +1,11 @@
+using System;
+
+namespace HeartswayBaptist.Models
+{
+    public class ErrorViewModel
+    {
+        public string RequestId { get; set; }
+
+        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+    }
+}
